@@ -41,7 +41,7 @@ import com.example.flashcard.ui.theme.red
 import com.example.flashcard.ui.theme.white
 
 @Composable
-fun FlashCard(
+fun OldFlashCard(
     question: String,
     answer: String,
     flipped: Boolean,
@@ -143,8 +143,8 @@ fun FlashCard(
 
 @Preview (showBackground = true)
 @Composable
-fun ShowFlashCard() {
-    FlashCard(
+fun ShowOldFlashCard() {
+    OldFlashCard(
         question = "This is the Question",
         answer = "This is Answer",
         onDelete = { },

@@ -45,7 +45,6 @@ fun MainScreen(
 
     Column(modifier = Modifier.fillMaxSize().background(Color(0xFFF2F6FA))) {
 
-        // 🔝 Top Bar with Add Button & Title
         Row(
             modifier = Modifier
                 .fillMaxWidth()

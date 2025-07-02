@@ -11,7 +11,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
-import androidx.compose.material.Button
 import androidx.compose.material.Icon
 import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
@@ -30,7 +29,6 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.flashcard.model.Question
 import com.example.flashcard.viewModel.QuestionVM
-import com.example.flashcard.views.components.FlashCard
 import com.example.flashcard.views.components.FlashCardScreen
 
 @Composable
